@@ -1,13 +1,20 @@
-*{
+* {
 
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+
+rect#mon2, polygon#tec2 {
+    animation: part_2 ease-in 5s;
+    animation-iteration-count: 1;
+}
+
+h1 {
     color: white;
     font-size: 56px;
     text-shadow: 4px 4px black;
 }
-.titulo-blanco{
+
+.titulo-blanco {
     text-align: center;
 }
 
@@ -23,7 +30,9 @@ nav {
     align-items: center;
     margin: 0px 40px;
 }
-.item-link, .botonesVideo {
+
+.item-link,
+.botonesVideo {
     box-shadow: 2px 3px #154454;
     border-radius: 10px;
     padding: 10px;
@@ -43,7 +52,8 @@ nav {
 header {
     display: block;
 }
-.body-day{
+
+.body-day {
     margin: 0px;
     background-color: #427E80;
     color: #F0F5E4;
@@ -78,7 +88,7 @@ header {
     height: 30px;
 }
 
-p{
+p {
     color: black;
 }
 
@@ -94,7 +104,7 @@ p{
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     background-color: #1d1d1d;
     height: 80px;
     display: flex;
@@ -113,4 +123,30 @@ footer{
 
 .titulo-foot {
     font-size: 14px;
+}
+
+/*Historia*/
+
+.cont-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-hist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+    background-color: linear-gradient(10% #F0F5E4,#154454 100%);
+}
+
+.contenedorVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
 }
