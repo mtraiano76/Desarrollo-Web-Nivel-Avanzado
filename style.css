@@ -3,7 +3,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-rect#mon2, polygon#tec2 {
+rect#mon2,
+polygon#tec2 {
     animation: part_2 ease-in 5s;
     animation-iteration-count: 1;
 }
@@ -12,6 +13,7 @@ h1 {
     color: white;
     font-size: 56px;
     text-shadow: 4px 4px black;
+    background-color: #be080859;
 }
 
 .titulo-blanco {
@@ -50,8 +52,18 @@ nav {
 }
 
 header {
-    display: block;
+
+    background: url(./imagenes/codigo.jpeg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
 }
+
 
 .body-day {
     margin: 0px;
@@ -104,6 +116,8 @@ p {
     margin-bottom: 20px;
 }
 
+
+
 footer {
     background-color: #1d1d1d;
     height: 80px;
@@ -140,7 +154,7 @@ footer {
     align-items: center;
     padding: 80px 50px;
     gap: 20px;
-    background-color: linear-gradient(10% #F0F5E4,#154454 100%);
+    background-color: linear-gradient(10% #F0F5E4, #154454 100%);
 }
 
 .contenedorVideo {
@@ -149,4 +163,19 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 100px 0px;
+}
+
+.container {
+    padding: 5px;
+    background-color: black;
+    width: 70%;
+}
+
+
+.barra {
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
 }
