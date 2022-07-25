@@ -1,6 +1,6 @@
 * {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 rect#mon1, polygon#tec1 {
@@ -74,7 +74,7 @@ header {
 
 .body-day {
     margin: 0px;
-    background-color: #427E80;
+    background-color: #084c61be;
     color: #F0F5E4;
 }
 
@@ -115,7 +115,7 @@ p {
     padding: 10px;
     border-radius: 10px;
     background-color: #427E80;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-shadow: 2px 3px #154454;
     text-align: center;
     text-decoration: none;
