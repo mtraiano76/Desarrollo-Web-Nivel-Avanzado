@@ -1,14 +1,15 @@
 * {
-
     font-family: 'Montserrat', sans-serif;
 }
 
-rect#mon1, polygon#tec1 {
+rect#mon1,
+polygon#tec1 {
     animation: part_1 ease-in 5s;
     animation-iteration-count: 1;
 }
 
-rect#mon2,polygon#tec2 {
+rect#mon2,
+polygon#tec2 {
     animation: part_2 ease-in 5s;
     animation-iteration-count: 1;
 }
@@ -37,58 +38,62 @@ nav {
     margin: 0px 40px;
 }
 
-@keyframes part_1{
+@keyframes part_1 {
 
 
-0% {
-    transform: translate(0,-10px);
-    opacity: 0;
-}
-20% {
-    transform: translate(0,-10px);
-    opacity: 0;
-}
-30% {
-    transform: translate(0,0);
-    opacity: 1;
-}
-90% {
-    transform: translate(0,0);
-    opacity: 1;
-}
-100% {
-    transform: translate(0,0);
-    opacity: 1;
-}
-
-}
-
-@keyframes part_2{
     0% {
-        transform: translate(0,-10px);
+        transform: translate(0, -10px);
         opacity: 0;
     }
+
+    20% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+
     30% {
-        transform: translate(0,-10px);
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    90% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+}
+
+@keyframes part_2 {
+    0% {
+        transform: translate(0, -10px);
         opacity: 0;
     }
+
+    30% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+
     40% {
-        transform: translate(0,0);
+        transform: translate(0, 0);
         opacity: 1;
     }
+
     90% {
-        transform: translate(0,0);
+        transform: translate(0, 0);
         opacity: 1;
     }
+
     100% {
-        transform: translate(0,0);
+        transform: translate(0, 0);
         opacity: 1;
     }
-
-
- 
-    
-    }
+}
 
 
 .item-link,
@@ -175,9 +180,13 @@ p {
     text-decoration: none;
     width: 40%;
     margin-bottom: 20px;
+
 }
 
+a.boton-ver {
+    color:#F0F5E4;
 
+}
 
 footer {
     background-color: #1d1d1d;
@@ -200,7 +209,7 @@ footer {
     font-size: 14px;
 }
 
-/*Historia*/
+/*HISTORIA*/
 
 .cont-historia {
     display: flex;
@@ -232,7 +241,6 @@ footer {
     width: 70%;
 }
 
-
 .barra {
     background-color: #1d1d1d;
     border-radius: 10px;
@@ -261,7 +269,9 @@ footer {
     flex-direction: row;
 }
 
-#cajasoltar, #cajasoltar2, #cajasoltar3 {
+#cajasoltar,
+#cajasoltar2,
+#cajasoltar3 {
     width: 275px;
     height: 400px;
     display: inline-block;
@@ -277,7 +287,9 @@ footer {
     margin: 40px;
 }
 
-#imagen1, #imagen2, #imagen3 {
+#imagen1,
+#imagen2,
+#imagen3 {
     width: 275px;
     height: 400px;
 }
